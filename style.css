@@ -42,7 +42,7 @@ text-align: justify;
 }
 header{
   display: flex;
-  padding: 20px;
+  padding: 5px;
 }
 div.left {
   width: 60%;
