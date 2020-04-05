@@ -1,0 +1,117 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color:  rgb(204,204,204);
+}
+h3{
+  margin-bottom: 5px;
+  background-color: #eaeae1;
+
+
+}
+h5{
+  text-decoration: underline;
+}
+ul{
+  list-style-position: inside;
+  margin-left: 15px;
+}
+table , th,td{
+  border:1px solid black;
+  border-collapse: collapse;
+}
+.cont{
+  /*border: 1px solid red;*/
+  margin-bottom: 15px;
+
+}
+
+div.resume-container{
+  background-color: white;
+  width:21cm;
+  /*height:29cm;*/
+  margin:0 auto;
+border: 2px solid black;
+}
+div.resume{
+
+
+padding : 30px;
+text-align: justify;
+
+
+
+}
+header{
+  display: flex;
+
+  padding: 20px;
+
+
+}
+div.left {
+  width: 60%;
+/*padding: 20px;*/
+
+
+}
+div.right{
+ width: 40%;
+/*  text-align: right;*/
+
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+justify-content: center;
+
+}
+div.objective{
+
+  width: auto;
+}
+
+.objective ul{
+
+
+}
+.education{
+
+
+
+}
+
+
+.education > table,th,td{
+  padding: 5px;
+
+  text-align: center;
+
+
+}
+.projects{
+
+}
+.projects table,th,td{
+text-align: left;
+}
+.tech-skills{
+
+}
+.exp .company{
+  display: flex;
+  justify-content:space-between;
+
+}
+.exp .duration{
+  position: relative;
+  left:-50px;
+  top:-20px;
+
+}
+.exp .jp{
+  margin-left: 30px;
+
+}
